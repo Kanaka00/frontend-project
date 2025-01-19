@@ -1,0 +1,23 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin: 2% 0px  5% 0px;
+  }
+  
+  .breadcrumb i {
+    margin: 0 5px;
+    color: #888;
+  }
+  
+  .breadcrumb .active {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .breadcrumb:hover {
+    color: #007bff;
+    cursor: pointer;
+  }
+  

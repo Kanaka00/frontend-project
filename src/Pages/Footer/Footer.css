@@ -1,0 +1,94 @@
+.footer{
+    background-color: rgb(31, 31, 49);
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.footer-container{
+    border-top: 3px solid rgb(116, 112, 112);;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px ;
+    
+}
+footer h3{
+ color: white;
+ font-size: 1.4rem;
+font-weight: 700;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.footer-description{
+   color: rgb(146, 143, 143);
+   font-weight: 400;
+}
+.social-media-icons{
+    display: flex;
+    gap: 20PX;
+  
+}
+.social-media-icons i{
+    color: rgb(165, 160, 160);
+}
+
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style:oblique;
+}
+.footer ul li{
+    list-style: circle;
+    
+}
+footer a{
+    text-decoration: none;
+    color: rgb(165, 160, 160);
+}
+.footer-section p{
+    color: rgb(165, 160, 160);
+  font-style:oblique;
+ 
+}
+.newsletter-form{
+   
+    display: flex;
+}
+
+.newsletter-form input{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+.newsletter-form button{
+    background-color: gray;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+.footer-bottom{
+    margin-top: 20px;
+    border-top: 1px solid rgb(107, 101, 101);
+}
+
+@media (max-width: 768px){
+    .footer-container{
+        flex-direction: column;
+    }
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-bottom p{
+    color: gainsboro;
+}
+.lite{
+    color: rgb(151, 221, 248);
+}
+.dark{
+    color: aliceblue;
+}

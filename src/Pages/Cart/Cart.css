@@ -1,0 +1,136 @@
+.cartpage{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.cart-left{
+    width: 60%;
+    border:none;
+    border-radius: 10px;
+    padding: 0px 30px;
+    box-shadow: 0px 0px 10px ;
+}
+.cart-head{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.404);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.cart-head h3{
+    color: rgba(0, 0, 0, 0.63);
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+.cart-body{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-img-box img{
+    border-radius: 10px;
+    height: 250px;
+    width: 200px;
+}
+
+.img-detailes{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    align-items: center;
+}
+.stock h3{
+    font-weight:700;
+    font-size: 1.5rem;
+}
+.stock-name{
+    color: green;
+}
+.contact{
+    color: blue;
+    font-weight: 200;
+    font-size: 13px;
+}
+.qantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 30px;   
+    font-size: 1.5rem;
+    border-radius: 10px;
+
+    border: 2px solid rgb(190, 240, 9);
+}
+.delete {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.value{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.cart-bottom{
+    margin-top: 20px;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 10%;
+
+}
+.cart-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.buying button{
+    width: 200px;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 20px;
+    background: yellow;
+    font-weight: 500;font-size: 18px;
+
+}
+
+
+@media (max-width:768px){
+    .cartpage{
+        flex-direction: column;
+    }
+    .cart-left{
+
+        width: 89%;
+        margin-right: 20px;
+    }
+    .cart-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .value{
+       position: relative;
+       right: 20px;
+       top: 20px;
+    }
+
+    .cart-right{
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -10px;
+    }
+    .buying{
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    .cart-img-box{
+        height: 200px;
+        width: 200px;
+    }
+}
